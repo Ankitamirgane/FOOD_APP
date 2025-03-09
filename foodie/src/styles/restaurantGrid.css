@@ -1,0 +1,18 @@
+.restaurant-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .card img {
+    width: 250px;
+    height: 180px;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card img:hover {
+    transform: scale(1.05);
+  }
+  

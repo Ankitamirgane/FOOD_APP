@@ -1,0 +1,152 @@
+/* Global Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Navbar Styles */
+nav {
+  background-color: #93755af6;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Zomato Clone Title */
+nav h1 {
+  font-size: 32px; /* Large size */
+  font-weight: bold;
+}
+
+/* Navbar Links (Login & Signup) */
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  font-size: 14px; /* Smaller size */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Home Page */
+.home-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.home-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.home-description {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.explore-btn {
+  display: inline-block;
+  background-color: #ff5733;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.explore-btn:hover {
+  background-color: #e14e2b;
+}
+
+/* Restaurants List */
+.restaurant-list {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.restaurant-item {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.restaurant-item:last-child {
+  border-bottom: none;
+}
+
+.restaurant-link {
+  color: #ff5733;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.restaurant-link:hover {
+  text-decoration: underline;
+}
+
+/* Forms (Login & Signup) */
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.form-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  background-color: #ff5733;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  background-color: #e14e2b;
+}
